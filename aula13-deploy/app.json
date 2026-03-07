@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Desafio Tabuada",
+    "icon": "./assets/icone.png",
+    "slug": "desafio-tabuada",
+    "version": "1.0.0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#03989e"
+    },
+    "android": {
+      "package": "com.devup.desafiotabuada",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.devup.desafiotabuada",
+      "buildNumber": "1.0.0"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "472512e2-fa31-4a4f-8779-14f9c384f612"
+      }
+    }
+  }
+}

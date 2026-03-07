@@ -48,6 +48,22 @@ import TabNavigationPersonalizando2App from './src/apps/TabNavigationPersonaliza
 import TabNavigationPersonalizando3App from './src/apps/TabNavigationPersonalizando3';
 import TabNavigationPersonalizando4App from './src/apps/TabNavigationPersonalizando4';
 import TabNavigationPersonalizando5App from './src/apps/TabNavigationPersonalizando5';
+import EstilizandoFlexbox1App from './src/apps/EstilizandoFlexbox1';
+import EstilizandoFlexbox2App from './src/apps/EstilizandoFlexbox2';
+import Aula9PropsApp from './src/apps/Aula9Props';
+import Aula10VariaveisEstadoApp from './src/apps/Aula10VariaveisEstado';
+import Aula11TextInputApp from './src/apps/Aula11TextInput';
+import Aula12StackNavigationApp from './src/apps/Aula12StackNavigation';
+import Aula14FuncoesHorasApp from './src/apps/Aula14FuncoesHoras';
+import Aula14AppSomaDias from './src/apps/Aula14AppSomaDias';
+import Aula14CalculaJurosApp from './src/apps/Aula14CalculaJuros';
+import Aula14TriviaApp from './src/apps/Aula14Trivia';
+import Aula14JogoVelhaApp from './src/apps/Aula14JogoVelha';
+import Aula15CarrosApp from './src/apps/Aula15Carros';
+import Aula15BancosApp from './src/apps/Aula15Bancos';
+import Aula16ApiUfsApp from './src/apps/Aula16ApiUfs';
+import Aula16ApiAssincronaApp from './src/apps/Aula16ApiAssincrona';
+import Aula16ApiAssincrona2App from './src/apps/Aula16ApiAssincrona2';
 
 const Stack = createNativeStackNavigator();
 
@@ -406,6 +422,134 @@ function HomeScreen({ navigation }) {
         />
       </View>
 
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Estilizando Flexbox 1 (Churrasco)" 
+          onPress={() => navigation.navigate('EstilizandoFlexbox1')} 
+          color="#d2691e"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Estilizando Flexbox 2 (Churrasco 2)" 
+          onPress={() => navigation.navigate('EstilizandoFlexbox2')} 
+          color="#00a79d"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 9 (Props dos Signos)" 
+          onPress={() => navigation.navigate('Aula9Props')} 
+          color="#61dafb"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 10 (Sorteio e useState)" 
+          onPress={() => navigation.navigate('Aula10VariaveisEstado')} 
+          color="#1f4f66"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 11 (TextInput Custom Sorteio)" 
+          onPress={() => navigation.navigate('Aula11TextInput')} 
+          color="#0fc3d4"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 12 (Jogo da Tabuada Native-Stack)" 
+          onPress={() => navigation.navigate('Aula12StackNavigation')} 
+          color="#a0df52"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 14 (Funções de Horas)" 
+          onPress={() => navigation.navigate('Aula14FuncoesHoras')} 
+          color="#1f4f66"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 14 (Soma de Dias)" 
+          onPress={() => navigation.navigate('Aula14SomaDias')} 
+          color="#0fc3d4"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 14 (Cálculo de Juros - TabNavigator)" 
+          onPress={() => navigation.navigate('Aula14CalculaJuros')} 
+          color="#047575"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 14 (Jogo de Trivia)" 
+          onPress={() => navigation.navigate('Aula14Trivia')} 
+          color="#1f4f66"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 14 (Jogo da Velha)" 
+          onPress={() => navigation.navigate('Aula14JogoVelha')} 
+          color="#a0df52"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 15 (Lista de Carros)" 
+          onPress={() => navigation.navigate('Aula15Carros')} 
+          color="#257cc0"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 15 (Lista de Bancos)" 
+          onPress={() => navigation.navigate('Aula15Bancos')} 
+          color="#1693f4"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 16 (API UFs)" 
+          onPress={() => navigation.navigate('Aula16ApiUfs')} 
+          color="#2F99EB"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 16 (API Assíncrona)" 
+          onPress={() => navigation.navigate('Aula16ApiAssincrona')} 
+          color="#f49316"
+        />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button 
+          title="Abrir App: Aula 16 (API Assíncrona 2)" 
+          onPress={() => navigation.navigate('Aula16ApiAssincrona2')} 
+          color="#d28014"
+        />
+      </View>
+
     </ScrollView>
   );
 }
@@ -459,6 +603,22 @@ export default function App() {
         <Stack.Screen name="TabNavigationPersonalizando3" component={TabNavigationPersonalizando3App} options={{ title: 'Personalizando 3 App', headerShown: false }} />
         <Stack.Screen name="TabNavigationPersonalizando4" component={TabNavigationPersonalizando4App} options={{ title: 'Evanescence App', headerShown: false }} />
         <Stack.Screen name="TabNavigationPersonalizando5" component={TabNavigationPersonalizando5App} options={{ title: 'Adega App', headerShown: false }} />
+        <Stack.Screen name="EstilizandoFlexbox1" component={EstilizandoFlexbox1App} options={{ title: 'Churrasco 1', headerShown: false }} />
+        <Stack.Screen name="EstilizandoFlexbox2" component={EstilizandoFlexbox2App} options={{ title: 'Churrasco 2', headerShown: false }} />
+        <Stack.Screen name="Aula9Props" component={Aula9PropsApp} options={{ title: 'Signos Props', headerShown: false }} />
+        <Stack.Screen name="Aula10VariaveisEstado" component={Aula10VariaveisEstadoApp} options={{ title: 'Sorteio App', headerShown: false }} />
+        <Stack.Screen name="Aula11TextInput" component={Aula11TextInputApp} options={{ title: 'TextInput Sorteio App', headerShown: false }} />
+        <Stack.Screen name="Aula12StackNavigation" component={Aula12StackNavigationApp} options={{ title: 'Jogo da Tabuada', headerShown: false }} />
+        <Stack.Screen name="Aula14FuncoesHoras" component={Aula14FuncoesHorasApp} options={{ title: 'Funções de Horas', headerShown: false }} />
+        <Stack.Screen name="Aula14SomaDias" component={Aula14AppSomaDias} options={{ title: 'Soma de Dias', headerShown: false }} />
+        <Stack.Screen name="Aula14CalculaJuros" component={Aula14CalculaJurosApp} options={{ title: 'Cálculo de Juros', headerShown: false }} />
+        <Stack.Screen name="Aula14Trivia" component={Aula14TriviaApp} options={{ title: 'Trivia Histórica', headerShown: false }} />
+        <Stack.Screen name="Aula14JogoVelha" component={Aula14JogoVelhaApp} options={{ title: 'Jogo da Velha', headerShown: false }} />
+        <Stack.Screen name="Aula15Carros" component={Aula15CarrosApp} options={{ title: 'Lista de Carros', headerShown: false }} />
+        <Stack.Screen name="Aula15Bancos" component={Aula15BancosApp} options={{ title: 'Lista de Bancos', headerShown: false }} />
+        <Stack.Screen name="Aula16ApiUfs" component={Aula16ApiUfsApp} options={{ title: 'Requisições a API de UFs', headerShown: false }} />
+        <Stack.Screen name="Aula16ApiAssincrona" component={Aula16ApiAssincronaApp} options={{ title: 'API Assíncrona', headerShown: false }} />
+        <Stack.Screen name="Aula16ApiAssincrona2" component={Aula16ApiAssincrona2App} options={{ title: 'API Assíncrona 2', headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
