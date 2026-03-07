@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Image } from "react-native";
 
-import imrCapa from '../../../../../assets/capa.png';
+import imrCapa from '../../../../../aula7-imagens/capa.png';
 import estilos from './estilos';
 
 export default function TelaGato() {

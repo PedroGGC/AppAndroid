@@ -1,9 +1,9 @@
 import React from "react";
 import { ScrollView, View, Image, Text } from "react-native";
 
-import img1 from '../../../../../assets/img1.png';
-import img2 from '../../../../../assets/img2.png';
-import img3 from '../../../../../assets/img3.png';
+import img1 from '../../../../../aula7-imagens/img1.png';
+import img2 from '../../../../../aula7-imagens/img2.png';
+import img3 from '../../../../../aula7-imagens/img3.png';
 import estilos from './estilos';
 
 export default function TelaSobre() {
