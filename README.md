@@ -33,30 +33,36 @@ O repositório aborda inúmeros conceitos nativos distribuídos pelas seguintes 
 
 ## Tecnologias Utilizadas
 
-Este projeto engloba o ecosistema moderno completo:
+Este projeto engloba o ecosistema moderno completo do ecossistema React Native:
 
 - **React Native** (React 18, Componentização, React Hooks)
-- **Expo SDK** (Metro Bundler local e suporte veloz ao ecossistema unificado)
+- **Expo SDK** (Metro Bundler local e ecossistema unificado)
 - **React Navigation v6** (`native`, `native-stack`, `bottom-tabs`, `drawer`)
-- **Gestos Nativo** (`react-native-gesture-handler`)
-- **Axios** (Consultas Assíncronas HTTP REST APIs)
-- **Expo Status Bar / Safe Area** (Controle avançado sobre frames de Notch de aparelhos e cores do sistema)
+- **React Native Gesture Handler** (Gestos nativos)
+- **Axios** (Consultas HTTP REST APIs)
+- **Expo Status Bar / Safe Area Context**
 
 ---
 
 ## Como Executar Localmente
 
-1. Certifique-se de possuir **Node.js** e o **npm** ou **Yarn** instalado corretamente.
-2. Clone o repositório e acesse o diretório principal:
-   \`\`\`bash
+Para rodar o projeto na sua máquina, siga os passos abaixo:
+
+1. Certifique-se de possuir o **Node.js** instalado no seu computador.
+2. Clone este repositório:
+   ```bash
+   git clone https://github.com/SEU-USUARIO/AppAndroid.git
+   ```
+3. Acesse a pasta do projeto:
+   ```bash
    cd AppAndroid
-   \`\`\`
-3. Proceda a instalação profunda utilizando a limpeza de pacotes desatualizados via comando _Install_ universal do Npm:
-   \`\`\`bash
+   ```
+4. Instale as dependências executando:
+   ```bash
    npm install
-   \`\`\`
-4. Inicie o Metro Bundler do CLI oficial do Expo forçando o clear de cache da port 8081 para não pegar pacotes da compilação antiga:
-   \`\`\`bash
-   npx expo start -c
-   \`\`\`
-5. E então, realize os testes com o **Expo Go** no seu celular ou pressione `a` no console para iniciar o simulador nativo do **Android Studio**.
+   ```
+5. Inicie o servidor do Expo:
+   ```bash
+   npx expo start
+   ```
+6. Abra o aplicativo no seu dispositivo físico utilizando o app **Expo Go** (para Android ou iOS) escaneando o QR Code no terminal. Alternativamente, pressione `a` no terminal para rodar em um Emulador Android, ou `i` para o Simulador do iOS.
