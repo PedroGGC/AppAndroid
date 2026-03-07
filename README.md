@@ -104,6 +104,6 @@ Para rodar o projeto na sua máquina, siga os passos abaixo:
    ```
 5. Inicie o servidor do Expo:
    ```bash
-   npx expo start
+   npx expo start -c
    ```
 6. Abra o aplicativo no seu dispositivo físico utilizando o app **Expo Go** (para Android ou iOS) escaneando o QR Code no terminal. Alternativamente, pressione `a` no terminal para rodar em um Emulador Android, ou `i` para o Simulador do iOS.
