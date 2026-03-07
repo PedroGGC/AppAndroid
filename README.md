@@ -1,10 +1,10 @@
-# AppAndroid - React Native Apps Collection 📱🚀
+# AppAndroid - React Native Apps Collection 
 
 Este repositório contém uma coleção massiva de mini-aplicativos desenvolvidos em **React Native** utilizando o **Expo**. Estes projetos foram construídos como parte de uma jornada de aprendizado contínuo, cobrindo desde os fundamentos básicos do React Native até o consumo de APIs externas de forma assíncrona.
 
 Ao invés de criar múltiplos repositórios separados, todos os aplicativos foram orquestrados em um único projeto modular `AppAndroid` utilizando a Stack Navigation nativa do React Navigation.
 
-## 🗂️ Estrutura e Aplicativos (Aulas)
+##  Estrutura e Aplicativos (Aulas)
 
 O projeto raiz possui um menu principal no `App.js` que engloba o acesso aos seguintes projetos:
 
@@ -20,7 +20,7 @@ O projeto raiz possui um menu principal no `App.js` que engloba o acesso aos seg
 - **Aula 16 (API UFs)**: O grande passo na rede! A aplicação integra a biblioteca estendida `axios` para requisitar Assincronamente a API externa de Unidades Federativas (UFs) da DevMedia validando retornos JSON no console e controlando os spinners de tela com hooks customizados ( `setIsLoading` ) em conjunto com as tags `<ActivityIndicator />`.
 - **Aula 16 (API Assíncrona 1 e 2)**: Projetos secundários em Single Page para comprovação de fluxo lógico em assincronicidade com o Event Loop nativo do Javascript. Uso da View protetora contra notches `SafeAreaView`.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 Este projeto engloba o ecossistema moderno completo do React Native:
 
@@ -30,7 +30,7 @@ Este projeto engloba o ecossistema moderno completo do React Native:
 - **Axios** (Consultas Assíncronas HTTP REST)
 - Extenso uso do Flexbox Styling para estilização agnóstica entre Android/iOS.
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Tenha o `Node.js` e o `npm` (ou yarn) instalados.
 2. Clone o repositório ou navegue até o diretório raiz.
@@ -46,4 +46,4 @@ Este projeto engloba o ecossistema moderno completo do React Native:
 
 ---
 
-_Feito com as poderosas integrações de código autônomo e muita IA!_ 🤖👽
+
