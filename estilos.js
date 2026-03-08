@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const estilo = StyleSheet.create({
   container: {
-    backgroundColor: '#CC0000',
+    backgroundColor: '#0a1c35',
     height: '100%',
   },
   titulo: {
