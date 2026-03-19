@@ -39,25 +39,6 @@ Este projeto engloba o ecosistema moderno completo do ecossistema React Native:
 - **Expo SDK** (Metro Bundler local e ecossistema unificado)
 - **React Navigation v6** (`native`, `native-stack`, `bottom-tabs`, `drawer`)
 
-# AppAndroid - Coleção de Aulas React Native
-
-Este repositório contém uma vasta coleção de mini-aplicativos desenvolvidos em **React Native** utilizando o **Expo**. Estes projetos foram construídos de forma modular como parte de uma jornada de aprendizado, estruturados cuidadosamente aula por aula.
-
-Todos os aplicativos foram centralizados em um único projeto através de roteamento e navegação unificados no arquivo `App.js`. O projeto conta com uma interface de Menu iterativa desenvolvida do zero e responsiva, facilitando a navegação nativa ao testar cada módulo no emulador ou aparelho físico.
-
----
-
-## Estrutura do Projeto
-
-Recentemente reestruturado, o projeto agora reflete um padrão moderno de organização escalável:
-
-- **`App.js`**: Raiz da navegação (Stack Navigation). Atua como um grande "Hub" (Menu Principal) renderizando dinamicamente os botões estilizados para abrir cada aplicativo baseado em um array de dados organizados.
-- **`assets/`**: Imagens e estilos isolados. Agora subdivididos em pastas exatas de acordo com cada aula/módulo correspondente (Ex: `Aula07-TabNavigationPets/`, `Aula08-EstilizandoFlexbox/`).
-- **`src/apps/`**: Onde a mágica acontece. Contém pastas semânticas separadas por Aulas cronológicas (da Aula 01 à Aula 16).
-  - Dentro de cada `AulaXX-Tema/`, você encontrará pastas para cada mini-app ensinado em aula, contendo seus próprios Componentes de Tela nativos e lógicas isoladas.
-
----
-
 ## Como Executar Localmente
 
 Para rodar o projeto na sua máquina, siga os passos abaixo:
